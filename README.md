@@ -9,7 +9,7 @@ Also works on mobile ([iOS, iPadOS,](#iOS-iPadOS-Safari-only) [Android](#Android
 
 **One-click import (any platform)**
 
-If you have uBlock Origin installed, click [this link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Flaylavish%2FuBlockOrigin-HUGE-AI-Blocklist%2Fmain%2Flist.txt&title=Sites%20using%20AI%20generated%20content) to import the filter list in just a click! Quick and simple.
+If you have uBlock Origin installed, click [this link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FCallenDV%2FuBlockOrigin-HUGE-AI-Blocklist%2Fmain%2Flist.txt&title=Sites%20using%20AI%20generated%20content) to import the filter list in just a click! Quick and simple.
 
 **Manual Import**
 
@@ -23,7 +23,7 @@ If you have uBlock Origin installed, click [this link](https://subscribe.adblock
 
 5. Copy and paste this URL into the dialogue box: 
 ```
-https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt
+https://raw.githubusercontent.com/CallenDV/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt
 ```
 
 6. Apply changes, and you're set!
@@ -44,66 +44,6 @@ https://github.com/user-attachments/assets/c379a750-53eb-4813-8cea-757f34ab5a2d
 > [!IMPORTANT]
 > If you find that your imported list isn't working, it may be due to an outdated web browsing session. If you haven't restarted your web browser for a long time, there's a chance the session won't update how it should, meaning importing the list into uBlock Origin or uBlacklist won't function correctly. Try creating a new session by closing <ins>**all**</ins> web browser windows, waiting until all processes are fully closed (4-5 second wait), then re-opening your web browser. That should help; if not, then try clearing your browser's cache.
 
-***
-
-### Installing it with uBlacklist
-
-**One-click filter import (Only for Chrome, Firefox doesn't support one-click import)**
-
-If you use Google Chrome/Chromium and have [uBlacklist installed](https://chromewebstore.google.com/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe), you can import the list in just one click. Click [this link](https://iorate.github.io/ublacklist/subscribe?name=Main+AI+Blocklist&url=https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list_uBlacklist.txt) to automatically subscribe to the list.
-
-**Manual Import**
-
-1. Make sure that you have the uBlacklist extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublacklist/), [Chrome](https://chromewebstore.google.com/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe), or any browser that supports uBlacklist
-
-2. Click on your extensions list, select uBlacklist, then click on the "options" text, highlighted in blue.
-
-3. Enable other search engines by clicking on the 'Other search engines/SERPINFO' button, and click on the search engines you want this list to work on. A list of compatible search engines (with images support) is linked [here.](https://github.com/iorate/ublacklist?tab=readme-ov-file#supported-search-engines)
-
-4. Scroll all the way down until you see the "Subscription" tab, and click on the blue "Add a subscription" button.
-
-5. Give a name for the added blocklist (eg. Main AI blocklist).
-  
-6. Copy and paste this url 
-```
-https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list_uBlacklist.txt
-``` 
-into the **URL** part of the dialogue box, then press the blue **Add** button.
-
-7. Set the update interval to an hour for near-realtime list updates, and you're done!
-
-## Mobile installation (iOS, iPadOS & Android)
-
-### iOS, iPadOS (Safari only)
-
-> [!NOTE]
-> Both iOS and iPadOS don't have support for uBlock Origin. So, we'll be using uBlacklist for this. Safari is the only browser we can use that allows the use of extensions.
-
-1. Download uBlacklist, [available on the App Store](https://apps.apple.com/us/app/ublacklist-for-safari/id1547912640)
-
-2. Go into settings, scroll down until you see Safari, and tap on it.
-
-3. Once in the Safari settings, in General, hit **Extensions**. Turn on the uBlacklist extension.
-
-4. While still in uBlacklist's settings, in the **Permissions for uBlacklist** section, scroll down to your preferred search engine and change the permission from "Ask" to "Allow."
-
-> [!IMPORTANT]
-> This may look cumbersome, but all you really need to do is just allow the extension to hit your search engine's locale, for example, `google.fr` or `google.co.uk`. You can go through all of them and allow them, but it's not necessary.
-
-5. Now scroll back up, and hit the blue **Extension Settings** button. It will bring you to Safari and open uBlacklist's settings panel.
-
-6. Scroll all the way down until you see the "Subscription" tab, and click on the blue "Add a subscription" button.
-
-7. Give a name for the added blocklist (eg. Main AI blocklist).
-  
-8. Copy and paste this url 
-```
-https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list_uBlacklist.txt
-``` 
-into the **URL** part of the dialogue box, then press the blue **Add** button.
-
-9. Set the update interval to an hour for near-realtime list updates, and you're done!
-
 ### Android (via Firefox)
 
 <details>
@@ -112,7 +52,7 @@ into the **URL** part of the dialogue box, then press the blue **Add** button.
 
   **One-click import**
 
-If you have uBlock Origin installed, click [this link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Flaylavish%2FuBlockOrigin-HUGE-AI-Blocklist%2Fmain%2Flist.txt&title=Sites%20using%20AI%20generated%20content) to import the filter list in just a click! Quick and simple.
+If you have uBlock Origin installed, click [this link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FCallenDV%2FuBlockOrigin-HUGE-AI-Blocklist%2Fmain%2Flist.txt&title=Sites%20using%20AI%20generated%20content) to import the filter list in just a click! Quick and simple.
 
 **Manual Import**
 
@@ -128,47 +68,18 @@ If you have uBlock Origin installed, click [this link](https://subscribe.adblock
 
 6. Copy and paste this URL into the dialogue box: 
 ```
-https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt
+https://raw.githubusercontent.com/CallenDV/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt
 ```
 
 6. Apply changes, and you're set!
 </details>
 
-<details>
-<summary>Installation for uBlacklist (expand) </summary>
-<br>
+## Hosts file for pi-hole/adguard/NextDNS
 
-**Manual Import**
-
-1. Make sure that you have the uBlacklist extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublacklist/), [Chrome](https://chromewebstore.google.com/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe), or any browser that supports uBlacklist
-
-2. Hit the three dots in the top right, and hit the Extensions button.
-
-3. Click on your extensions list, select uBlacklist, then click on the "options" text, highlighted in blue.
-
-4. Enable other search engines by clicking on the 'Other search engines/SERPINFO' button, and click on the search engine(s) you want this list to work on. A list of compatible search engines (with images support) is [here.](https://github.com/iorate/ublacklist?tab=readme-ov-file#supported-search-engines)
-
-5. Scroll all the way down until you see the "Subscription" tab, and click on the blue "Add a subscription" button.
-
-6. Give a name for the added blocklist (eg. Main AI blocklist).
-  
-7. Copy and paste this url 
-```
-https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list_uBlacklist.txt
-``` 
-into the **URL** part of the dialogue box, then press the blue **Add** button.
-
-7. Set the update interval to an hour for near-realtime list updates, and you're done!
-
-</details>
-
-
-## Hosts file for pi-hole/adguard
-
-I've added a list in HOSTS format for pi-hole/adguard or for use in your own operating system's hosts file.
+I've added a list in HOSTS format for pi-hole/adguard/NextDNS or for use in your own operating system's hosts file.
 
 ```
-https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/noai_hosts.txt
+https://raw.githubusercontent.com/CallenDV/uBlockOrigin-HUGE-AI-Blocklist/main/noai_hosts.txt
 ```
 
 For use in your operating system, visit the url and copy-paste the contents inside your operating systems hosts file. 
@@ -190,10 +101,20 @@ Here's a simple guide on how to [access your hosts file on Linux, macOS, and Win
 5. Copy and paste the url into the second dialogue box.
 6. Hit save, and the list is added!
 
+### For NextDNS:
+
+Unfortunately, since NextDNS doesn't yet support list imports, all entries will have to be manually typed in.
+
+1. Open NextDNS Dashboard
+2. Go to Denylist
+3. Focus the domain input box
+4. Copy and paste the url into the box
+5. Hit enter
+6. Repeat 3-5 until list is completed
 
 ## Additional lists
 
-Currently, there are two lists: The [main](github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/blob/main/list.txt) default list, and the [nuclear](github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/blob/main/additional_list_nuclear.txt) list.
+Currently, there are two lists: The [main](github.com/CallenDV/uBlockOrigin-HUGE-AI-Blocklist/blob/main/list.txt) default list, and the [nuclear](github.com/CallenDV/uBlockOrigin-HUGE-AI-Blocklist/blob/main/additional_list_nuclear.txt) list.
 
 The nuclear list has sites that contain a mix of authentic and AI generated imagery (eg. DeviantArt, Artstation, Stock Photography sites, etc), which make it tricky to outright block in the main filter list, so I've designated it to a separate list that you can toggle on and off if you so desire.
 
@@ -203,19 +124,11 @@ The nuclear list has sites that contain a mix of authentic and AI generated imag
 <br>
 
 ```
-https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/additional_list_nuclear.txt
+https://raw.githubusercontent.com/CallenDV/uBlockOrigin-HUGE-AI-Blocklist/main/additional_list_nuclear.txt
 ```
 
 </details>
 
-<details>
-<summary>uBlacklist Nuclear List (expand) </summary>
-<br>
-  
-```
-https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list_uBlacklist_nuclear.txt
-```
-</details>
 
 ## Allowlisting sites
 Don't like a certain site being blocked? You can easily create an allowlist in your own personal uBlock Origin or uBlacklist filter list. 
@@ -239,20 +152,6 @@ Or, if you don't want to go through that mumbo-jumbo, add this line in your filt
 ```
 
 Change "example.com" to the URL you want to allowlist. Copy & paste that in uBlock Origin's "My filters" list, and you're set!
-
-</details>
-
-<details>
-<summary>Steps for uBlacklist (expand) </summary>
-<br>
-
-1. Enter uBlacklist's options panel. 
-2. In the text box, add this line in the text box: 
-```
-@*://*.example.com/*
-```
-3. Change "example.com" to a website you want allowlisted. 
-4. Click save. Done!
 
 </details>
 
@@ -291,25 +190,6 @@ google.com,duckduckgo.com,bing.com##div>a:has-text(/AI illustration/i):upward(di
 
 </details>
   
-### uBlacklist
-
-For uBlacklist, you can use [regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) to filter AI results based on keywords. 
-
-An example of a regular expression for uBlacklist would be: `/ai *(generated)?|stable *diffusion/i`
-
-Below is a small list of **optional** regular expressions that can be used to filter out AI results based on keywords:
-
-
-<details>
-<summary> Optional regular expressions for uBlacklist </summary>
-<br>
-
-```
-/(generative)? *AI *(art|generated|illustration)?/i
-/(ada)?Lo(RA|Con) *(model)?|(stable)?.*diffusion|midjourney|niji|sd *(xl|1.5)|(text|txt|img|image) *(to|2) *(image|img|video)/i
-```
-</details>
-
 ## Contributing
 If you'd like to contribute to the list, feel free to clone this repo and create a pull request for the site(s) you'd like to add to the list. Make sure to update all files (including hosts file) wherever necesessary (except the nuclear list if you want the site to appear in the main list of course).
 
@@ -336,8 +216,6 @@ Special thanks to:
 + u/AchernarB for the [awesome snip-bit of code.](https://www.reddit.com/r/uBlockOrigin/comments/13uyex5/how_to_block_results_from_a_specific_site_in_the/)
 
 + Raymond Hill, [uBlock Origin extension](https://github.com/gorhill/uBlock)
-
-+ iorate, [uBlacklist extension](https://github.com/iorate/ublacklist)
 
 ## Related Projects
 

@@ -1,10 +1,10 @@
 ! Title: Huge AI Blocklist
 ! Expires: 1 day
 ! Description: A huge blocklist of sites that contain AI generated content for uBlock Origin.
-! Homepage: https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist
+! Homepage: https://github.com/CallenDV/uBlockOrigin-HUGE-AI-Blocklist
 !
-! Issues: https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues
-! PRs: https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/pulls
+! Issues: https://github.com/CallenDV/uBlockOrigin-HUGE-AI-Blocklist/issues
+! PRs: https://github.com/CallenDV/uBlockOrigin-HUGE-AI-Blocklist/pulls
 ! Feel free to fork and submit pr's if you find more sites
 
 ! HAPPY PRIDE MONTH
@@ -3252,6 +3252,28 @@ google.com##a[href*="deviantart.com/lizzyrascal"]:upward(2):remove()
 google.com##a[href*="deviantart.com/krzychumen"]:upward(2):remove()
 google.com##a[href*="deviantart.com/selosai"]:upward(2):remove()
 google.com##a[href*="deviantart.com/aismart"]:upward(2):remove()
+google.com##a[href*="deviantart.com/ByteBrush"]:upward(2):remove()
+google.com##a[href*="deviantart.com/Imagella"]:upward(2):remove()
+google.com##a[href*="deviantart.com/TheAiFurDen"]:upward(2):remove()
+google.com##a[href*="deviantart.com/Unbound-Curiosities"]:upward(2):remove()
+google.com##a[href*="deviantart.com/midgptjourney"]:upward(2):remove()
+google.com##a[href*="deviantart.com/Commonbymaru"]:upward(2):remove()
+google.com##a[href*="deviantart.com/DVKtheartist"]:upward(2):remove()
+google.com##a[href*="deviantart.com/MoonBornChiyo"]:upward(2):remove()
+google.com##a[href*="deviantart.com/Trinity-de"]:upward(2):remove()
+google.com##a[href*="deviantart.com/dmitryalexander"]:upward(2):remove()
+google.com##a[href*="deviantart.com/jhantares"]:upward(2):remove()
+google.com##a[href*="deviantart.com/Auriill"]:upward(2):remove()
+google.com##a[href*="deviantart.com/Caldrail"]:upward(2):remove()
+google.com##a[href*="deviantart.com/Eulogy612"]:upward(2):remove()
+google.com##a[href*="deviantart.com/FoxyFromSpace"]:upward(2):remove()
+google.com##a[href*="deviantart.com/Oktayakay"]:upward(2):remove()
+google.com##a[href*="deviantart.com/SUICIDEEMOJI"]:upward(2):remove()
+google.com##a[href*="deviantart.com/SoulfulArtisan"]:upward(2):remove()
+google.com##a[href*="deviantart.com/Xaakt"]:upward(2):remove()
+google.com##a[href*="deviantart.com/hxdxis"]:upward(2):remove()
+google.com##a[href*="deviantart.com/mhio71"]:upward(2):remove()
+google.com##a[href*="deviantart.com/wolfwaycheese"]:upward(2):remove()
 
 
 ! Block list of AI "artists"/orgs (artstation)
@@ -3259,7 +3281,6 @@ google.com##a[href*="artstation.com/tryintogetthere"]:upward(2):remove()
 
 
 ! Block list of AI "artists"/orgs (facebook)
-google.com##a[href*="facebook.com/cuteanimegirl99"]:upward(2):remove()
 google.com##a[href*="facebook.com/cuteanimegirl99"]:upward(2):remove()
 google.com##a[href*="facebook.com/TheTiniestTiger"]:upward(2):remove()
 
@@ -3580,7 +3601,12 @@ google.com##a[href*="ipv6.rs"]:upward(2):remove()
 google.com##a[href*="homediningkitchen.com"]:upward(2):remove()
 google.com##a[href*="psichologyanswers.com"]:upward(2):remove()
 google.com##a[href*="umatechnology.org"]:upward(2):remove()
-
+google.com##a[href*="4kdownload.com"]:upward(2):remove()
+google.com##a[href*="wallpapers.com"]:upward(2):remove()
+google.com##a[href*="teacherspayteachers.com"]:upward(2):remove()
+google.com##a[href*="designbundles.net"]:upward(2):remove()
+google.com##a[href*="ministeringprintablesshop.com"]:upward(2):remove()
+google.com##a[href*="thatsdesignstore.com"]:upward(2):remove()
 
 ! // VoiceMod shit
 google.com##a[href*="tuna.voicemod.net/sound/1fdc3b37-441c-4a34-ae88-853bbbb947bb"]:upward(2):remove()
@@ -3624,15 +3650,27 @@ google.com##a[href*="redbubble.com/people/digitalemporio/shop"]:upward(2):remove
 ! // Google AI Overview
 google.com##.YzCcne:remove()
 
+! // Bing Copilot Overview
+bing.com##.ca_top_sec
+bing.com##.cht_root
+bing.com##.b_results_eml
+
 ! // Google AI Mode search tab
 google.com##div[role="navigation"] span:has-text(AI Mode):upward(5):remove()
 
+! // Bing Copilot tab
+bing.com###b-scopeListItem-copilotsearch
+
 ! // GitHub Copilot
 github.com##div > button > span > span > svg.octicon-copilot:upward(div)
+github.com##div.prc-ButtonGroup-Item-PqvDl > .prc-Button-IconButton-fyge7.styles-module__appHeaderButton__axedQ.prc-Button-ButtonBase-9n-Xk
 github.com##div.AppHeader-CopilotChat
+github.com###blob-view-header-copilot-icon
+github.com###_R_1l8lnqb5_
+github.com##li.prc-UnderlineNav-UnderlineNavItem-syRjR:nth-of-type(4)
+github.com##.prc-UnderlineNav-OverflowMenuItem-7SG7M.prc-ActionList-ActionListItem-So4vC > .prc-Link-Link-9ZwDx.prc-ActionList-ActionListContent-KBb8-
 github.com##div.copilotPreview__container
 github.com##li > a[href$="/copilot"]:upward(li)
-
 
 ! // Just in case exceptions
 mail.google.com#@#a[href*="/play.ht"]:upward(2):remove()
@@ -3641,3 +3679,175 @@ mail.google.com#@#a[href*=".play.ht"]:upward(2):remove()
 
 ! // Gmail, Google Drive, Google Docs: Try Gemini button
 mail.google.com,drive.google.com,docs.google.com##div[role="tooltip"]:has-text(Try Gemini):upward(3):remove()
+
+! // Miscellaneous Filters
+stackoverflow.com##.-link__with-icon.nav-links--link.js-left-sidebar-focus-restore.js-gps-track.js-disable-sofa-new-link.ai-center.pl8.h32.s-block-link
+stackoverflow.com##.-link__with-icon.nav-links--link.js-gps-track.js-ch-popover-controller.js-disable-chat-new-link.ai-center.pl8.s-block-link
+stackoverflow.com##.js-sofa-sidebar-promo.ps-relative.mb16.bar-sm.bc-purple-400.ba.bg-purple-100.s-sidebarwidget
+atlassian.net##[data-testid="layout-controller.ui.bottom-right-corner.container.styled-container"]:has(span:has-text(Open Rovo Chat)):remove()
+atlassian.net##[data-spotlight-target="rovo-ai-button"]:remove()
+atlassian.net##[data-testid^="ai-agent"]:remove()
+atlassian.net##[data-toolbar-component="section"]:has([aria-label="More Rovo options"]):remove()
+windowsforum.com###js-XFUniqueId10 > .username--admin.username--moderator.username--staff:has-text(WindowsForum AI):upward(7):remove()
+windowsforum.com##.username--admin.username--moderator.username--staff:has-text(WindowsForum AI)
+windowsforum.com##.wf-sectionPage--embedded.wf-sectionPage--news.wf-sectionPage.wf-home
+windowsforum.com##.has-summary.wf-aiSummaryCard.wf-sideCard
+windowsforum.com##.avatar-u125694-s:upward(3)
+windowsforum.com##.css-13mx34z.MuiBox-root.wf-chat-window
+bsod.windowsforum.com##.app
+
+! /////////////////
+! /////////////////
+
+! // Much More Google Stuff
+||ai.google.com
+||geminiup.com
+||bard.google.com
+||gemini.google.com
+||aistudio.google.com
+||generativelanguage.googleapis.com
+||aiplatform.googleapis.com
+||cloudaicompanion.googleapis.com
+||vertexai.google
+||deepmind.google
+||aida.googleapis.com
+||robinfrontend-pa.googleapis.com
+||notebooklm.google.com
+||labs.google
+||aisandbox-pa.googleapis.com
+||proactivebackend-pa.googleapis.com
+||alkalimera-pa.googleapis.com
+||smartcanvas.google
+||workspaceai.google
+||inlinefeedback-pa.googleapis.com
+||generativelanguage.sandbox.google.com
+||colab.google
+||taskassist-pa.clients6.google.com
+||footprints-pa.googleapis.com
+||spot-pa.googleapis.com
+||appsgenaiserver-pa.clients6.googleapis.com
+||xgapromomanager-pa.googleapis.com
+||optimizationguide-pa.googleapis.com
+||discover-pa.googleapis.com
+||readaloud.googleapis.com
+||mobilemlaccelerationcompatibility.googleapis.com
+||geller-pa.googleapis.com
+||makersuite-pa.google.com
+||xga-serving-pa.googleapis.com
+||signaler-pa.googleapis.com
+||alkaliminer-pa.googleapis.com
+||appsgenaiserver-pa.googleapis.com
+||appsgenaiserver-pa.clients6.google.com
+||developerscontentsearch-pa.google.com
+||developerscontentsearch-pa.clients6.google.com
+||ai.google
+||stitch.withgoogle.com
+||playatoms-pa.googleapis.com
+||jules.google.com
+||jules.google
+||speechs3proto2-pa.googleapis.com
+||antigravity-unleash.goog
+||bendingspoons.ai
+||bendingspoons.com
+||firebaseinstallations.googleapis.com
+||antigravity-unleash.goog
+||aimode-pa.googleapis.com
+||ai-pa.googleapis.com
+||aimode.googleapis.com
+||ai.googleapis.com
+||aisearch.google.com
+||aimode.google.com
+||deepmind.com
+
+! // Meta Stuff
+||genai-graph-fallback.facebook.com
+||genai-graph.facebook.com
+||facebook.ai
+||ai-graph.instagram.com
+||ai-graph-fallback.instagram.com
+||ai.meta.com
+||ai.facebook.com
+||ollama.com
+||llamaindex.com
+
+! // Microsoft Stuff
+||copilot.microsoft.com
+||copilot.msn.com
+||copilot.bing.com
+||ai.bing.com
+||ai.msn.com
+||ai.microsoft.com
+||githubcopilot.com
+||microsoftcopilot.com
+||copilot.cloud.microsoft
+
+! // Amazon Stuff
+||ai.alexa.co
+||ai.alexa.com
+||plus.alexa.co
+||alexaplus.co
+||ai.health.amazon.co
+||ai.amazon.co
+||ai.health.amazon.com
+||ai.amazon.com
+||ai.health.amazon
+||ai.alexa.amazon
+||ai.amazon
+||alexaplus.com
+||plus.alexa.com
+
+! // Apple Stuff
+||apple-cloudkit.com
+||apple-relay.apple.com
+||apple-relay.fastly-edge.com
+||apple-relay.cloudflare.com
+||genai.apple.com
+
+! // OpenAI Stuff
+||chat.openai.com
+||openaicom.imgix.net
+||*.chatgpt.com
+||*.oaiusercontent.com
+||*.oaistatic.com
+
+! // Miscellaneous Stuff
+||readyai.ai
+||readyai.org
+||readyai.com
+||grok.com
+||grokipedia.com
+||*.kimi.com
+||chatw.co
+||centerpointgaming.com
+||d2cze0rhm6lkv8.cloudfront.net
+||island.io
+||gplex.com
+||opus.pro
+||plumerai.com
+||visualcron.com
+||walmart.ai
+||sparky.walmart.com
+||linux.ai
+||linuxai.com
+||ailinux.com
+||ramp.com
+||ai.finalsite.com
+||aivideo-normal-sg.capcutapi.com
+||langfuse.com
+||hf-mirror.com
+||leptonapi.com
+||modal.com
+||truss.dev
+||unstructuredapp.io
+||unstructured.io
+||livepeer.org
+||ai-gateway.gitlab.com
+||ai.gitlab.com
+||duo.gitlab.com
+||ai.matrix.com
+||hf.space
+||x.ai
+||doubleclick.net
+||ai.cloudflare.com
+||browser.workers.dev
+||dialogflow.com
