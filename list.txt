@@ -3758,6 +3758,7 @@ bsod.windowsforum.com##.app
 ||aisearch.google.com
 ||aimode.google.com
 ||deepmind.com
+||ai
 
 ! // Meta Stuff
 ||genai-graph-fallback.facebook.com
