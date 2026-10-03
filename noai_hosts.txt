@@ -2378,10 +2378,14 @@
 0.0.0.0 githubcopilot.com
 0.0.0.0 microsoftcopilot.com
 0.0.0.0 copilot.cloud.microsoft
+0.0.0.0 hatchjs.com
+0.0.0.0 rustfaq.com
 
 # [I'm too Lazy to Sort - WWW Version]
 0.0.0.0 www.ai.google.com
 0.0.0.0 www.geminiup.com
+0.0.0.0 www.hatchjs.com
+0.0.0.0 www.rustfaq.com
 0.0.0.0 www.bard.google.com
 0.0.0.0 www.gemini.google.com
 0.0.0.0 www.aistudio.google.com
