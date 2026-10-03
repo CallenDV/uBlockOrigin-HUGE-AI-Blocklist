@@ -3758,7 +3758,7 @@ bsod.windowsforum.com##.app
 ||aisearch.google.com
 ||aimode.google.com
 ||deepmind.com
-||ai
+||ai^
 
 ! // Meta Stuff
 ||genai-graph-fallback.facebook.com
@@ -3817,7 +3817,7 @@ bsod.windowsforum.com##.app
 ||readyai.com
 ||grok.com
 ||grokipedia.com
-||*.kimi.com
+||kimi.com
 ||chatw.co
 ||centerpointgaming.com
 ||d2cze0rhm6lkv8.cloudfront.net
@@ -3846,6 +3846,7 @@ bsod.windowsforum.com##.app
 ||ai.gitlab.com
 ||duo.gitlab.com
 ||ai.matrix.com
+||rustfaq.org
 ||hf.space
 ||x.ai
 ||doubleclick.net
