@@ -3695,6 +3695,8 @@ windowsforum.com##.has-summary.wf-aiSummaryCard.wf-sideCard
 windowsforum.com##.avatar-u125694-s:upward(3)
 windowsforum.com##.css-13mx34z.MuiBox-root.wf-chat-window
 bsod.windowsforum.com##.app
+stackoverflow.co###__nuxt
+stackoverflow.com##.mb8.mt32.ps-relative
 
 ! /////////////////
 ! /////////////////
