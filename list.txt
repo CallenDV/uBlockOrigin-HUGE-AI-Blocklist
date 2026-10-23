@@ -3680,6 +3680,11 @@ mail.google.com#@#a[href*=".play.ht"]:upward(2):remove()
 ! // Gmail, Google Drive, Google Docs: Try Gemini button
 mail.google.com,drive.google.com,docs.google.com##div[role="tooltip"]:has-text(Try Gemini):upward(3):remove()
 
+! // YouTube, YouTube Studio: Ask button
+www.youtube.com##toggle-button-view-model:nth-of-type(3)
+studio.youtube.com##.ytcpCreatorChatEntrypointButtonHost > ytcp-button > ytcp-button-shape
+studio.youtube.com##.ytcpCreatorChatEntrypointButtonHost > ytcp-button
+
 ! // Miscellaneous Filters
 stackoverflow.com##.-link__with-icon.nav-links--link.js-left-sidebar-focus-restore.js-gps-track.js-disable-sofa-new-link.ai-center.pl8.h32.s-block-link
 stackoverflow.com##.-link__with-icon.nav-links--link.js-gps-track.js-ch-popover-controller.js-disable-chat-new-link.ai-center.pl8.s-block-link
