@@ -3671,6 +3671,7 @@ github.com##li.prc-UnderlineNav-UnderlineNavItem-syRjR:nth-of-type(4)
 github.com##.prc-UnderlineNav-OverflowMenuItem-7SG7M.prc-ActionList-ActionListItem-So4vC > .prc-Link-Link-9ZwDx.prc-ActionList-ActionListContent-KBb8-
 github.com##div.copilotPreview__container
 github.com##li > a[href$="/copilot"]:upward(li)
+github.com##span:has-text(Open in GitHub Copilot app):upward(2):remove()
 
 ! // Just in case exceptions
 mail.google.com#@#a[href*="/play.ht"]:upward(2):remove()
@@ -3682,6 +3683,8 @@ mail.google.com,drive.google.com,docs.google.com##div[role="tooltip"]:has-text(T
 
 ! // YouTube, YouTube Studio: Ask button
 www.youtube.com##toggle-button-view-model:nth-of-type(3)
+www.youtube.com##.you-chat-entrypoint-button.ytSpecButtonViewModelHost > .ytSpecButtonShapeNextMainstagePadding.ytSpecButtonShapeNextMainstageIconSize.ytSpecButtonShapeNextEnableBackdropFilterExperiment.ytSpecButtonShapeNextOverrideSmallSizeIcon.ytSpecButtonShapeNextIconButton.ytSpecButtonShapeNextSizeS.ytSpecButtonShapeNextOverlay.ytSpecButtonShapeNextText.ytSpecButtonShapeNextHost > .ytSpecTouchFeedbackShapeOverlayTouchResponse.ytSpecTouchFeedbackShapeHost > .ytSpecTouchFeedbackShapeStroke
+www.youtube.com##.you-chat-entrypoint-button.ytSpecButtonViewModelHost > .ytSpecButtonShapeNextMainstagePadding.ytSpecButtonShapeNextMainstageIconSize.ytSpecButtonShapeNextEnableBackdropFilterExperiment.ytSpecButtonShapeNextOverrideSmallSizeIcon.ytSpecButtonShapeNextIconButton.ytSpecButtonShapeNextSizeS.ytSpecButtonShapeNextOverlay.ytSpecButtonShapeNextText.ytSpecButtonShapeNextHost
 studio.youtube.com##.ytcpCreatorChatEntrypointButtonHost > ytcp-button > ytcp-button-shape
 studio.youtube.com##.ytcpCreatorChatEntrypointButtonHost > ytcp-button
 
